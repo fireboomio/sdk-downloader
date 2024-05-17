@@ -5,9 +5,9 @@
 ## 安装
 
 ```shell
-npm i -g fb-sdk-downloader
+npm i -g @fireboom/sdk-downloader
 # 如果只想要在当前项目使用
-npm i -D fb-sdk-downloader
+npm i -D @fireboom/sdk-downloader
 ```
 
 ## 使用
