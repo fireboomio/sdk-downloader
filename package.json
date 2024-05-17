@@ -1,0 +1,23 @@
+{
+  "name": "@fireboom/sdk-downloader",
+  "version": "0.1.1",
+  "description": "Tool to download the generated SDKs from the FireBoom platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --url http://localhost:9123 --output ./src/api --sdk ts-client --ignore index.ts",
+    "test": "node index.js --url http://192.168.211.213:32345 --output ./src/api --sdk miniapp --ignore index.ts --token stvqHixNJenHXoEOHgZVxGfeBrHbphvp"
+  },
+  "keywords": [
+    "fireboom",
+    "sdk",
+    "downloader"
+  ],
+  "bin": {
+    "fb-sdk-downloader": "index.js"
+  },
+  "author": "erguotou525@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "adm-zip": "^0.5.12"
+  }
+}
